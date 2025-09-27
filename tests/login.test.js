@@ -17,6 +17,8 @@ export const options = {
 export default function () {
     const url = 'http://localhost:3000/login';
 
+    postLogin.username ="julio.lima"
+    console.log(postLogin)
     const payload = JSON.stringify(postLogin);
 
     const params = {
